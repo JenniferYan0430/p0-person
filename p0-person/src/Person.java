@@ -11,7 +11,7 @@ public class Person {
 	 */
 	
 	public Person(String name, int age) {
-		// TODO: complete constructor
+		myAge = age; 
 		myName = name;
 	}
 	
@@ -30,7 +30,7 @@ public class Person {
 	 */
 	public String getName() {
 		// TODO: complete this method
-		return "ola";
+		return myName;
 	}
 	
 	/**
